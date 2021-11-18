@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Clock from './StateAndLifeCycle';
 import ToggleButton from './HandlingEvents';
 import CountryForm from './Forms';
+import TemparatureManager from './LiftingUpState';
 
 function Page(){
   return(
@@ -12,6 +13,7 @@ function Page(){
       <Clock />
       <ToggleButton/>
       <CountryForm/>
+      <TemparatureManager />
     </div>  
   );
 }
